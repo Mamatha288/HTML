@@ -1,0 +1,264 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color:rgba(255,255,255, .8);
+    --bg-color:rgba(0,0,0, .8);
+    --text-heading:#0071E3;
+    --text-heading11:#1d1d1f;
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 50px;
+    background-color: var(--bg-color);
+}
+
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 65%;
+    margin: auto;
+}
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+#main{
+   background-image: url("./assests/appleicon.jpg"); 
+   border: 2px solid;
+   height: 550px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   align-items: center;
+}
+h2{
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    font-size: 35px;
+}
+h3{
+    color: white;
+    position: absolute;
+    left: 450px;
+    margin-top: 150px;
+  
+}
+
+
+
+#sub-main{
+    background-image: url("./assests/appleicon2.jpg"); 
+    border: 2px solid;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+} 
+
+#media{
+    border: 2px solid;
+    height: 450px;
+}
+#watch{
+        background-image: url("./assests/watchicon.jpg"); 
+        position: absolute;
+        left: 20px;
+        background-color: #fbfbfd;
+        /* border: 2px solid; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 600px;
+    }
+
+
+#mac{
+    background-image: url("./assests/macproicon.jpg");
+    position: absolute;
+    top: 1600px;
+    left: 640px;
+    border: 100px 100px 100px 100px;
+    background-color: #fbfbfd;
+    /* border: 2px solid; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 600px;
+
+}
+
+#ipad{
+    background-image: url("./assests/ipadicon.jpg");
+    position: absolute;
+    top: 2120px;
+    left: 20px;
+    border: 100px 100px 100px 100px;
+    background-color: #fbfbfd;
+    /* border: 2px solid; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 600px;
+
+}
+
+#airpads{
+    background-image: url("./assests/airpadsicon.jpg");
+    position: absolute;
+    top: 2120px;
+    left: 640px;
+    border: 100px 100px 100px 100px;
+    background-color: #fbfbfd;
+    /* border: 2px solid; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 600px;
+
+}
+#icon5{
+    background-image: url("./assests/icon5.jpg");
+    position: absolute;
+    top: 2640px;
+    left: 20px;
+    border: 100px 100px 100px 100px;
+    background-color: #fbfbfd;
+    /* border: 2px solid; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 600px;
+
+}
+#icon6{
+    background-image: url("./assests/icon6.jpg");
+    position: absolute;
+    top: 2640px;
+    left: 640px;
+    border: 100px 100px 100px 100px;
+    background-color: #fbfbfd;
+    /* border: 2px solid; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 600px;
+
+}
+.divdemo{
+    /* border: 2px solid; */
+    text-align: center;
+}
+#class{
+    /* border: 2px solid red; */
+    display: inline-flex;
+    justify-content: space-around;
+    width: 15%;
+    position: absolute;
+    top: 230px;
+    left: 500px;
+    color: #0071E3;
+
+}
+#class1{
+    /* border: 2px solid red; */
+    display: inline-flex;
+    justify-content: space-around;
+    width: 15%;
+    position: absolute;
+    top: 730px;
+    left: 500px;
+    color: #0071E3;
+}
+#class5{
+    color: #0071E3;
+    /* border: 2px solid; */
+    display: inline-flex;
+    width: 30%;
+    justify-content: space-around;
+    position: absolute;
+    top: 100px;
+    left: 210px;
+
+}
+#class6{
+    color: #0071E3;
+    /* border: 2px solid; */
+    position: absolute;
+    right: 200px;
+    width: 30%;
+    justify-content: space-around;
+    display: inline-flex;
+}
+#class4{
+    position: absolute;
+    left: 430px;
+    margin-top: 90px;
+    color: black;
+    /* border: 2px solid; */
+   
+}
+#class3{
+    /* border: 2px solid red; */
+    display: inline-flex;
+    justify-content: space-around;
+    width: 15%;
+    position: absolute;
+    top: 650px;
+    left: 500px;
+}
+#class7{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 35%;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    color: #0071E3;
+    /* border: 2px solid red; */
+}
+#class8{
+    /* border: 2px solid red; */
+    color: #0071E3;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 35%;
+    position: absolute;
+    right: 180px ;
+}
+#class10{
+    color: #0071E3;
+
+}
+#class9{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 35%;
+    position: absolute;
+    top: 40px;
+    left:200px;
+    color: #0071E3;
+}
+
+
+
+
+
+
